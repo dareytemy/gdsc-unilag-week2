@@ -40,7 +40,7 @@ body {
 .wrap {
     max-width: 960px;
     margin: 0 auto;
-    padding: 0;
+    padding: 60px 0;
 }
 
 .container {
@@ -134,6 +134,10 @@ footer {
 
 @media screen and (max-width: 380px) {
     
+    body {
+        padding-bottom: 16px;
+    }
+    
     .container {
         display: flex;
         flex-direction: column-reverse;
@@ -144,6 +148,12 @@ footer {
     header {
         text-align: center;
         margin-top: -8px;
+    }
+
+    .wrap {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0;
     }
 
     h2, h2 + p {
